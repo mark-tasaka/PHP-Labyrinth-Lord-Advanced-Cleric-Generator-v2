@@ -238,6 +238,72 @@ function spellsLevel7($level)
 }
 
 
+function addSpellsLevel1($wisdom)
+{
+    if($wisdom < 13)
+    {
+        return 0;
+    }
+    else if($wisdom == 13)
+    {
+        return 1;
+    }
+    else
+    {
+        return 2;
+    }
+
+}
+
+
+function addSpellsLevel2($level, $wisdom)
+{
+    if($level > 2 && $wisdom > 14)
+    {
+        if($wisdom == 14)
+        {
+            return 1;
+        }
+        else
+        {
+            return 2;
+        }
+
+    }
+    else
+    {
+        return 0;
+    }
+    
+}
+
+
+function addSpellsLevel3($level, $wisdom)
+{
+    if($level > 4 && $wisdom > 16)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+    
+}
+
+
+function addSpellsLevel4($level, $wisdom)
+{
+    if($level > 6 && $wisdom > 17)
+    {
+        return 1;
+    }
+    else
+    {
+        return 0;
+    }
+    
+}
 
 
 

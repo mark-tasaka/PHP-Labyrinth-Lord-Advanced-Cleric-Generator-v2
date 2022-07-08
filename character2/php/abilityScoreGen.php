@@ -196,6 +196,7 @@ function generationMesssage ($abilityScore)
 
 function getAbilityModifier($score)
 {
+    $modifier = 0;
 
     if($score == 3)
         {
@@ -344,7 +345,7 @@ function demiHumanConstitutionRange($abilityScore, $species)
     {
         if($abilityScore < 11)
         {
-            $abilityScore = 1;
+            $abilityScore = 11;
         }
         $abilityScore +=1;
     }
