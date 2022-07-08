@@ -3,6 +3,20 @@ The Labyrinth Lord Advanced Companion Cleric Character Generator Version 2 is th
 
 -----------
 
+A live version of the Labyrinth Lord Advanced Companion Cleric Character Generator Version 2 is available at:
+
+https://www.oldschooladventures.org/ll/classes2/cleric/
+
+
+-----------
+
+
+Update 1.01: 2022-07-08
+
+Updates to cleric.php, cleric.css, abilityAdditon.php, abilityScoreGen.php, classDetails.php, demiHumans.php, gear.php, spells.php, and weapons.php.  A link to the live version of the Labyrinth Lord Advanced Companion Cleric Character Generator Version 2 added.
+
+
+
 Initial commit: 2022-07-06
 
 The initial commit for the Labyrinth Lord Advanced Companion Cleric Character Generator Version 2.
